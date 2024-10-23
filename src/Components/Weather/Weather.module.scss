@@ -1,0 +1,38 @@
+.weatherContainer {
+    text-align: center;
+    height: 100vh;  // Full viewport height
+    background-image: url('../../Assest/Images/weather\ app\ bg.jpg');  // Path to your local image
+    background-size: cover;  // Make the image cover the entire area
+    background-position: center;  // Center the image
+    background-repeat: no-repeat;  // Prevent repeating the image
+    background-attachment: fixed;  // Keep the background fixed while scrolling
+    // display: flex;
+    // justify-content: center;
+    align-items: center;  // Center content vertically and horizontally
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;  // Full width
+}
+
+
+// .form-control {
+//     padding: 12px;
+//     width: 100%;
+//     border-radius: 10px;
+//     font-size: 20px;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+// }
+
+// .btn-primary {
+//     padding: 12px 40px;
+//     border-radius: 8px;
+//     font-size: 18px;
+//     // color: red;
+// }
+
+// .mt-4 {
+//     background-color: rgba(255, 255, 255, 0.8); /* Transparent background for weather details */
+//     color: #333;
+//     border-radius: 12px;
+// }

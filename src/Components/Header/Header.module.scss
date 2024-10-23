@@ -1,0 +1,21 @@
+.cloudImage {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); // Moves up by 10px
+    }
+    100% {
+        transform: translateY(0); // Moves back to the original position
+    }
+}
